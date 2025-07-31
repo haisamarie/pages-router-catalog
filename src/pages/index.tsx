@@ -2,8 +2,8 @@ import { ProductData } from "@/utils/data/products";
 
 const ProductList = () => {
   return (
-    <main>
-      <h1>製品一覧</h1>
+    <main className="container mx-auto px-4">
+      <h1 className="text-4xl text-center ">製品一覧</h1>
       <ul>
         {ProductData.map((product) => (
           <li key={product.id}>
