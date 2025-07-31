@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>pages</div>;
+  return <div>製品一覧</div>;
 }
